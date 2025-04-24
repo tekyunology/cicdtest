@@ -1,137 +1,170 @@
-/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------- 
+File Name: responsive.css 
+---------------------------------------------------------------------*/
 
-@media (min-width: 1200px) and (max-width: 1342px) {
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 50px 18px 10px 18px;
-    }
-}
+@media (min-width: 1200px) and (max-width: 1342px) {}
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .slider_main {
+       padding-top: 9%;
+    }
     .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 50px 20px 10px 20px;
+        padding: 15px 26px;
     }
-    .re_no {
-        display: none;
+    .relative h3 {
+        padding-bottom: 25px;
     }
-    .zon_text h1 {
-        font-size: 86px;
-        line-height: 90px;
+    #carouselExampleIndicators .carousel-control-prev {
+        left: 3%;
     }
-    .zon_text .read_more {
-        max-width: 173px;
+    .about {
+        padding: 90px 0;
     }
-    #carouselExampleIndicators .carousel-control-prev,
-    #carouselExampleIndicators .carousel-control-next {
-        top: 104%;
+    #myCarousel a.carousel-control-prev {
+       left: 41%;
     }
-    .titlepage h2 {
-        font-size: 44px;
+    ul.fullink li {
+        padding: 0px 16px;
     }
-    ul.conta li {
+    ul.social_icon li {
+    margin: 0 0px;
+    }
+    ul.social_icon li a {
+        width: 28px;
+        line-height: 28px;
+        height: 28px;
+    }
+    ul.social_icon li a i {
         font-size: 16px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 50px 12px 10px 12px;
-    }
-    .re_no {
-        display: none;
-    }
     .slider_main {
-        padding-top: 17%;
+       padding-top: 14%;
     }
-    .coff_img {
-        padding-right: 0;
+    .header {
+        padding: 27px 10px;
     }
-    .zon_text {
-        float: inherit;
-    }
-    .zon_text h1 {
-        font-size: 67px;
-        line-height: 69px;
-    }
-    .zon_text .read_more {
-        max-width: 129px;
-    }
-    #carouselExampleIndicators .carousel-control-prev,
-    #carouselExampleIndicators .carousel-control-next {
-        top: 107%;
-    }
-    .contact {
-        border: inherit;
-        padding-right: 0px;
-    }
-    .testimonial {
-        padding-left: 0px;
-        padding-top: 80px;
-    }
-    .testimonial .titlepage {
-        text-align: center;
-    }
-    .titlepage h2 {
-        font-size: 34px;
-        line-height: 35px;
-    }
-    .service_box h3 {
-        font-size: 27px;
-    }
-    ul.conta li {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 7px 14px;
         font-size: 16px;
+    }
+    ul.email li {
+        padding: 0px 15px;
+    }
+    .relative h3 {
+        padding-bottom: 25px;
+        padding-top: 29px;
+        font-size: 61px;
+        line-height: 75px;
+    }
+    #carouselExampleIndicators .carousel-control-prev {
+        left: 1%;
+    }
+    .class_box {
+        padding: 40px 20px 50px 20px;
+    }
+    .about {
+        padding: 90px 0;
+    }
+    .skating {
+        padding: 90px 0px 90px 0px;
+    }
+    .shop_img {
+        padding-left: 0px;
+    }
+    .test_box {
+        padding: 0 10px 40px 10px;
+    }
+    .white_bg {
+        margin: 0;
+    }
+    #myCarousel a.carousel-control-prev {
+        left: 41%;
+    }
+    #myCarousel a.carousel-control-next {
+        right: 41%;
+    }
+    .border_left {
+        padding-left: 20px;
+    }
+    .newsl {
+        font-size: 12px;
+    }
+    ul.fullink li {
+        padding: 0px 5px;
+    }
+    ul.fullink li a {
+        font-size: 16px;
+    }
+    ul.social_icon {
+        padding-top: 15px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .logo a {
-        padding-top: 26px;
+    .header {
+        padding: 31px 15px;
+        box-shadow: 0 0 10px rgb(240, 57, 15);
+        margin-bottom: 11px;
     }
-    .re_no {
-        display: none;
-    }
-    .slider_main {
-        padding-top: 25%;
-    }
-    .zon_text {
-        float: inherit;
+    .board {
         max-width: inherit;
     }
-    .zon_text h1 {
-        font-size: 90px;
-        line-height: 89px;
+    .slider_main {
+        padding-top: 26%;
     }
-    .owl-nav {
-        display: none;
+    .banner_img {
+        padding-right: 0px;
     }
     #carouselExampleIndicators .carousel-control-prev {
-        top: 90% !important;
+        left: 0%;
     }
-    .about {
-        padding-top: 75px;
+    #carouselExampleIndicators .carousel-control-next {
+        left: 13%;
     }
-    .grid {
-        display: grid;
+    .shop_img {
+        padding-left: 0;
     }
-    .order1 {
-        order: -1;
+    .about .titlepage {
+        max-width: inherit;
     }
     .about_img {
-        padding-right: 0px;
-        margin-left: 0px;
+        margin-top: 30px;
     }
-    .contact {
-        border: inherit;
-        padding-right: 0px;
+    .d_grid {
+        display: grid;
+    }
+    .order_1_mobile {
+        order: -1;
     }
     .testimonial {
+        padding: 90px 0 10px 0;
+    }
+    .test_box,
+    .white_bg {
+        margin-bottom: 80px !important;
+    }
+    #myCarousel a.carousel-control-next,
+    #myCarousel a.carousel-control-prev {
+        top: 98%;
+    }
+    #myCarousel a.carousel-control-prev {
+        left: 39%;
+    }
+    #myCarousel a.carousel-control-next {
+        right: 39%;
+    }
+    .border_left {
+        border-left: inherit;
         padding-left: 0px;
-        padding-top: 80px;
     }
-    .testimonial .titlepage {
-        text-align: center;
+    ul.social_icon {
+        padding-top: 15px;
     }
-    .footer::after {
-        position: inherit;
+    .main_form .send_btn {
+        margin-bottom: 30px;
     }
     .navigation.navbar {
         float: right;
@@ -140,9 +173,9 @@
         width: 100%;
     }
     .navigation .navbar-collapse {
-        background: #000000;
+        background: #2b2b2b;
         padding: 20px;
-        margin-top: 31px;
+        margin-top: 29px;
         position: absolute;
         width: 100%;
         z-index: 999;
@@ -158,7 +191,7 @@
         padding: 0;
         width: 100%;
         outline: inherit;
-        margin-top: -24px;
+        margin-top: -37px;
     }
     .navigation.navbar-dark .navbar-toggler-icon {
         background: url(../images/menu_icon.png);
@@ -169,106 +202,118 @@
     .d_none {
         display: none;
     }
-    .inner_page .header {
-        padding-bottom: 25px;
-    }
 }
 
 @media (max-width: 575px) {
     .header {
-        padding: 0 18px;
+        padding: 27px 5px;
+        box-shadow: 0 0 10px rgb(240, 57, 15);
+        margin-bottom: 11px;
     }
-    .logo a {
-        padding-top: 26px;
-    }
-    .re_no {
-        display: none;
-    }
-    .slider_main {
-        padding-top: 32%;
-    }
-    .zon_text {
-        float: inherit;
+    .board {
         max-width: inherit;
     }
-    .zon_text h1 {
-        font-size: 62px;
-        line-height: 69px;
+    .slider_main {
+        padding-top: 24%;
     }
-    .owl-nav {
-        display: none;
+    .relative h3 {
+        line-height: 80px;
+        font-size: 60px;
     }
-    .coff_img {
-        padding-right: 0;
-    }
-    .zon_text .read_more {
-        margin-right: 0px;
-        margin-bottom: 20px;
+    .banner_img {
+        padding-right: 0px;
+        margin-top: 20px;
     }
     #carouselExampleIndicators .carousel-control-prev {
-        top: 88% !important;
+        left: 0%;
     }
-    .titlepage h2 {
-        font-size: 27px;
-        line-height: 30px
+    #carouselExampleIndicators .carousel-control-next {
+        left: 23%;
     }
-    .about {
-        padding-top: 75px;
+    .carousel-inner {
+        padding-top: 80px;
     }
-    .grid {
-        display: grid;
-    }
-    .order1 {
-        order: -1;
+    .logo {
+        float: left;
     }
     .about_img {
-        padding-right: 0px;
-        margin-left: 0px;
+        margin-top: 30px;
     }
-    .contact {
-        border: inherit;
-        padding-right: 0px;
+    .about_img figure img {
+        margin-bottom: -4px;
     }
-    .testimonial {
+    .titlepage h2 {
+        line-height: 57px;
+        font-size: 38px;
+    }
+    .skating {
+        padding: 90px 0px 90px 0px;
+    }
+    .shop_img {
+        padding-left: 0;
+    }
+    .d_grid {
+        display: grid;
+    }
+    .order_1_mobile {
+        order: -1;
+    }
+    .copyright p {
+        font-size: 17px;
+    }
+    .border_left {
+        border-left: inherit;
         padding-left: 0px;
-        padding-top: 80px;
     }
     .testimonial .titlepage {
-        text-align: center;
+        padding-bottom: [0;
+        ]
     }
-    .testimonial_box p {
-        padding: 82px 10px;
-        font-size: 15px;
-        line-height: 29px;
+    .testimonial {
+        padding: 90px 0 10px 0;
     }
-    .testimonial_pro h3 {
-        padding: 20px 0;
+    .test_box,
+    .white_bg {
+        margin-bottom: 80px !important;
     }
-    .footer {
-        padding-top: 80px;
+    #myCarousel a.carousel-control-next,
+    #myCarousel a.carousel-control-prev {
+        top: 98%;
     }
-    .footer::before,
-    .footer::after {
-        position: inherit;
+    #myCarousel a.carousel-control-prev {
+        left: 25%;
     }
-    .subsrib {
-        padding-right: 0;
+    #myCarousel a.carousel-control-next {
+        right: 24%;
+    }
+    .white_bg {
+        margin: 0;
+    }
+    ul.social_icon {
+        padding-top: 15px;
+    }
+    ul.conta {
+        margin-bottom: 10px;
+    }
+    ul.fullink li {
+        padding: 0px 25px;
     }
     .subsci_btn {
-        position: inherit;
-        top: 30px;
-        float: left;
-        right: 0;
+        margin-bottom: 30px;
+        float: inherit;
+    }
+    .main_form .send_btn {
+        margin-bottom: 30px;
     }
     .navigation.navbar {
         float: right;
         display: inherit !important;
         padding: 0;
         width: 100%;
-        margin-top: -25px;
+        margin-top: -40px;
     }
     .navigation .navbar-collapse {
-        background: #000000;
+        background: #2b2b2b;
         padding: 20px;
         margin-top: 65px;
         position: absolute;
@@ -294,11 +339,5 @@
     }
     .d_none {
         display: none;
-    }
-    .inner_page .header {
-        padding-bottom: 25px;
-    }
-    .inner_page .header .navigation .navbar-collapse {
-        margin-top: 56px;
     }
 }
